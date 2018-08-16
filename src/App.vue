@@ -21,8 +21,8 @@
           <div class="tabs is-centered">
             <ul>
               <li class="footer-text">
-                <a href="https://www.peyloride.xyz" style="color:white;">
-                  Made with &nbsp;<span style="color: #e25555;">&#9829;</span>&nbsp; by Peyloride
+                <a>
+                  Made with &nbsp;<span style="color: #e25555;">&#9829;</span>&nbsp; by <a href="https://peyloride.xyz">peyloride</a> and <a href="http://enderahmetyurt.com">ndrx42</a>
                 </a>
               </li>
             </ul>
@@ -53,6 +53,7 @@ html,body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #9e9e9e;
 }
 .hero .nav, .hero.is-success .nav {
   -webkit-box-shadow: none;
@@ -61,5 +62,8 @@ html,body {
 .hero .subtitle {
   padding: 3rem 0;
   line-height: 1.5;
+}
+.tabs a {
+  border-bottom: unset;
 }
 </style>
